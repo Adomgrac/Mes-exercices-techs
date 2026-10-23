@@ -1,0 +1,11 @@
+const nomduclient = "awa"
+const nomproduit ="ordinateur"
+const prixunitaire = 250000
+const quantité = 2
+const fraisdelivraison = 5000
+const tauxTVA = 18/100
+const montanttotaldesproduits = 250000*2
+const montantdelaTVA = montanttotaldesproduits*tauxTVA
+const MontantTTC = montanttotaldesproduits+montantdelaTVA
+const montantfinal = MontantTTC+fraisdelivraison
+const prixmoyenTTC = MontantTTC/quantité
